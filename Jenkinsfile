@@ -1,7 +1,5 @@
 pipeline {
-  agent {
-    label "jenkins-nodejs"
-  }
+  agent any
   environment {
     ORG = 'dennisnewel'
     APP_NAME = 'iwantfood'
